@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+scroll-behavior: smooth;
+}
+:root{
+--bodyFont: 'Amatic SC', cursive;
+--bodyFont2: 'Montserrat', sans-serif;
+--font:19px;
+--white:#ffff;
+--yellow:#FACB36;
+--fontColor:#444645;
+--lightYellow:#F3CD56;
+--cream:#FCF4EA;
+--grey:#44464580;
+--black:#000000CC;
+--cream:#FCF4EA;
+}
+
+/********************** 
+HEADER
+***********************/
+.navi{padding: 15px 0;
+background-color: var(--black);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+.navi-box{
+width: 80%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+    
+    
+.nav ul{
+list-style: none;
+display: flex;
+}
+    
+.nav ul li{
+margin: 15px;
+font-family: var(--bodyFont2);
+font-size: 15px;
+}
+.nav ul li a{
+text-decoration: none;
+color: var(--yellow);
+        
+}
+
+/****************** 
+ MAIN 
+*******************/
+      
+.main {
+margin-top: 200px;
+}
+.main-container {
+width: 80%;
+margin: 0 auto;
+}
+.main-box {
+  display: flex;
+  justify-content: space-between;
+}
+.main-kalendar{
+  flex: 0 0 29%;
+  padding: 50px 20px;
+}
+ .main-img {
+ flex: 0 0 70%;
+}
+.main-img  img {
+ width: 100%;
+}
+
+.main-kalendar .kalendar-img{
+  text-align: center;
+}
+
+.main-kalendar .kalendar-img img {
+  width: 100%;
+}
+
+.main-kalendar .kalendar-img h4{
+  font-family: var(--bodyFont2);
+  font-size: 15px;
+  color: #444645;
+  font-weight: 500;
+}
+
+.main .main-kalendar .kalendar-text h3{
+font-family: var(--bodyFont);
+font-size: 24px;
+}
+
+.main .main-kalendar .kalendar-text h4{
+  font-family: var(--bodyFont2);
+  color: var(--yellow);
+font-weight: 300;  
+}
+.dogadjaji {
+  margin: 30px 0;
+}
+
+.main .main-p{
+  text-align: left;
+}
+
+.main .main-p h2{
+  font-family: var(--bodyFont);
+  color: var(--yellow);
+  font-size: 48px;
+  font-weight: 400;
+}
+.main-p .vece-koktela{
+  width: 30%;
+  display: flex;
+  margin: 20px 0 20px 0;
+}
+
+.main-p .vece-koktela i{
+margin-right: 5px;
+}
+
+.main .main-p p{
+  margin-bottom: 20px;
+  font-family: var(--bodyFont2);
+  font-size: 15px;
+  color: #444645;
+
+} 
+.main .main-form h3{
+  font-family: var(--bodyFont);
+  font-size: 24px;
+  color: #444645;
+}
+
+.main .main-form p{
+  font-family: var(--bodyFont2);
+  font-size: 15px;
+  color: #444645;
+  margin: 20px 0 20px 0;
+}
+
+.main .main-form .form-main{
+width: 40%;
+}
+
+.main .main-form .form-main textarea{
+  width: 100%;
+}
+
+.main .main-form .form-main .formMain{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .main-form .form-main .formMain input{
+  flex: 0 0 49%;
+  width: 100%;
+  padding: 10px;
+}
+
+.main .main-form .form-main button{
+  background-color: var(--yellow);
+  border: none;
+  padding: 8px 25px;
+  border-radius: 10px;
+  font-family: var(--bodyFont2);
+  font-size: 15px;
+  cursor: pointer;
+  margin: 50px 0;
+}
+
+/* FOOTER */ 
+.footer{
+  background-color:var(--black);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer .logo-footer p{
+  font-family: var(--bodyFont2);
+  color: var(--white);
+  font-weight: lighter;
+  margin: 10px 0;
+}
+.footer form {
+  width: 43%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto 20px auto;
+}
+.footer form input{
+  flex: 0 0 49%;
+  padding: 12px;
+}
+.footer form input::placeholder{
+font-family: var(--bodyFont2);
+}
+
+.footer form button{
+  flex: 0 0 49%;
+  border: none;
+  background-color: var(--black);
+  color: var(--yellow);
+  text-transform: uppercase;
+  font-family: var(--bodyFont2);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer .footer-p{
+  background-color: var(--yellow);
+  padding: 20px 0;
+}
+
+.formMain input::placeholder{
+  font-family: var(--bodyFont2);
+}
+
+form textarea::placeholder{
+  font-family: var(--bodyFont2);
+  padding: 10px;
+}
+
+
+
+
+
